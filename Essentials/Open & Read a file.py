@@ -3,7 +3,7 @@
 ## Below syntax has used open fuction to open a file in memory but u cannot view it.
 ## & while opening we need to store it in a variable inside memory
 
-openit = open("/Users/karpuri/Downloads/689511056/var/log/vdebug")
+openit = open("/Users/karpuri/Downloads/var/log/vdebug")
 
 # Step 2 read () function
 
@@ -27,7 +27,7 @@ openit.close()
 
 #Alternate way & easy way
 
-file = open("/Users/karpuri/Downloads/689511056/var/tech/config")
+file = open("/Users/karpuri/Downloads/var/tech/config")
 print(file.read())
 file.close()
 
