@@ -9,4 +9,5 @@ for x in file:
         save = open("/Users/karpuri/Documents/Devnet/save.txt", "a")
         save.write(x)
         save.close()
+ file.close()
         
